@@ -1,3 +1,5 @@
+================Praktik=================
+
 apt update
 
 wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | apt-key add -
@@ -58,3 +60,21 @@ db.tcc.find({nama_depan: 'Reza'});
 db.tcc.remove({nama_depan: 'Dian, nama_belakang: 'Sastro'});
 
 db.tcc.find()
+
+=========================================================
+
+========================Tugas============================
+use dzikri
+
+db.dzikri.insert({
+nama_mahasiswa: 'Muhammad Dzikri Adi Prasojo',
+nim: '205410163',
+kelas: 'IF'
+});
+
+db.dzikri.find()
+
+db.dzikri.update({
+nim: '205410163'},
+{$set: {kelas: 'IF-2'}
+});
