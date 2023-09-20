@@ -40,7 +40,7 @@ kewarganegaraan: 'Indonesia'},
 {nama_depan: 'Pevita', nama_belakang: 'Pearce',
 tanggal_lahir: '12/12/1991', jenis_kelamin: 'f',
 warna_rambut: 'hitam', pekerjaan: 'aktris',
-kewarganegaraan: 'Indonesia'},
+kewarganegaraan: 'Indonesia'}
 ]);
 
 db.tcc.find()
