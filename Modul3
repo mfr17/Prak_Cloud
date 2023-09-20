@@ -51,7 +51,7 @@ db.tcc.find({jenis_kelamin: 'f', $or: [{pekerjaan: 'aktris'}]});
 
 db.tcc.find({jenis_kelamin: 'f', $or: [{kewarganegaraan: 'Indonesia'}, {pekerjaan: 'aktris'}]}).limit(2);
 
-db.tcc.update({'nama_depan: 'Reza', nama_belakang: 'Rahardia'}, {$set: {nama_belakang: 'Rahardian'}});
+db.tcc.update({nama_depan: 'Reza', nama_belakang: 'Rahardia'}, {$set: {nama_belakang: 'Rahardian'}});
 
 db.tcc.find({nama_depan: 'Reza'});
 
