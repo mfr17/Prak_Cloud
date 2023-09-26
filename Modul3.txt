@@ -57,7 +57,7 @@ db.tcc.update({nama_depan: 'Reza', nama_belakang: 'Rahardia'}, {$set: {nama_bela
 
 db.tcc.find({nama_depan: 'Reza'});
 
-db.tcc.remove({nama_depan: 'Dian, nama_belakang: 'Sastro'});
+db.tcc.remove({nama_depan: 'Dian', nama_belakang: 'Sastro'});
 
 db.tcc.find()
 
