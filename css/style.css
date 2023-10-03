@@ -1,0 +1,20 @@
+* {
+  border-radius: 0 !important;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron {
+  padding: 5rem 1rem;
+}
+
+#project {
+  padding: 5rem 1rem;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
